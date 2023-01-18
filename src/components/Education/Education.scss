@@ -1,0 +1,84 @@
+.app__education {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__education-container {
+  margin-top: 3rem;
+}
+
+.app__education-list {
+  gap: 3rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 900px) {
+    gap: 2rem;
+  }
+}
+
+.app__education-logo {
+  &::after {
+    content: "";
+    width: 2px;
+    height: 175px;
+    background-color: var(--lightGray-color);
+    position: absolute;
+    margin-left: 14.8rem;
+
+    @media screen and (min-width: 2000px) {
+        height: 225px;
+        width: 3px;
+        margin-left: 18.5rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
+
+  div {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+
+    @media screen and (min-width: 2000px) {
+        height: 175px;
+        width: 175px;
+      }
+
+    @media screen and (max-width: 900px) {
+      height: 100px;
+      width: 100px;
+    }
+    @media screen and (max-width: 400px) {
+      height: 80px;
+      width: 80px;
+    }
+
+    img {
+      height: 80%;
+      width: 80%;
+    }
+  }
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  z-index: 1;
+
+  @media screen and (min-width: 2000px) {
+    height: 25px;
+    width: 25px;
+}
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.app__education-content {
+  flex: 1;
+}
