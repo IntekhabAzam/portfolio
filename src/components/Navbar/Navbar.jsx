@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
@@ -7,7 +7,6 @@ import { BsPencilSquare } from "react-icons/bs";
 import "./Navbar.scss";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#");
 
   return (
     <>
