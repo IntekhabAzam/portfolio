@@ -87,8 +87,16 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  
+
   padding: 1rem;
+
+  @media screen and (max-width: 575px) {
+    position: absolute;
+    right: 0;
+    padding: 4px 8px 0 0;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
 
   div {
     width: 40px;
@@ -103,6 +111,10 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
+
+    a {
+      padding-top: 3px;
+    }
 
     svg {
       width: 15px;
@@ -161,9 +173,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .app__navigation,
-  .app__social {
+@media screen and (max-width: 575px) {
+  .app__navigation {
     display: none;
   }
 }
