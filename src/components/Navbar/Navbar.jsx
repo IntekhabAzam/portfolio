@@ -25,39 +25,19 @@ const Navbar = () => {
       </nav>
       {/* Tab/Mobile screen Navigation bar*/}
       <nav className="icon-navbar">
-        <a
-          href="#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
-        >
+        <a href="#">
           <AiOutlineHome />
         </a>
-        <a
-          href="#projects"
-          onClick={() => setActiveNav("#projects")}
-          className={activeNav === "#projects" ? "active" : ""}
-        >
+        <a href="#projects">
           <MdWorkOutline />
         </a>
-        <a
-          href="#skills"
-          onClick={() => setActiveNav("#skills")}
-          className={activeNav === "#skills" ? "active" : ""}
-        >
+        <a href="#skills">
           <BsPencilSquare />
         </a>
-        <a
-          href="#education"
-          onClick={() => setActiveNav("#education")}
-          className={activeNav === "#education" ? "active" : ""}
-        >
+        <a href="#education">
           <HiOutlineAcademicCap />
         </a>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
-        >
+        <a href="#contact">
           <BiMessageSquareDetail />
         </a>
       </nav>

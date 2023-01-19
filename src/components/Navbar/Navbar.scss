@@ -78,6 +78,10 @@
     font-size: 1.1rem;
     color: var(--gray-color);
 
+    &:hover {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
     @media screen and (max-width: 375px) {
       padding: 0.7rem;
     }
@@ -86,8 +90,4 @@
   @media screen and (min-width: 900px) {
     display: none;
   }
-}
-
-.active {
-  background: rgba(0, 0, 0, 0.2);
 }
