@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.739be846.css",
-    "main.js": "/portfolio/static/js/main.0517ac18.js",
-    "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
-    "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
-    "static/media/about01.png": "/portfolio/static/media/about01.080509de05322b7aafda.png",
+    "main.css": "/portfolio/static/css/main.f88facea.css",
+    "main.js": "/portfolio/static/js/main.bd5976c3.js",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
+    "static/media/project02.png": "/portfolio/static/media/project02.b6305371d1c0ef04d471.png",
     "static/media/Jamia_Millia_Islamia.png": "/portfolio/static/media/Jamia_Millia_Islamia.21dabbd413adcc018de1.png",
-    "static/media/about03.png": "/portfolio/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/project01.png": "/portfolio/static/media/project01.967ccf4055feae1d67bc.png",
     "static/media/St-Xaviers.png": "/portfolio/static/media/St-Xaviers.c21fbab52bf610bec86f.png",
     "static/media/whatsapp.png": "/portfolio/static/media/whatsapp.53f8f318677312725725.png",
+    "static/media/project03.png": "/portfolio/static/media/project03.4fa573fee6c79e22a901.png",
     "static/media/redux.png": "/portfolio/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/node.png": "/portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -19,11 +18,11 @@
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.739be846.css.map": "/portfolio/static/css/main.739be846.css.map",
-    "main.0517ac18.js.map": "/portfolio/static/js/main.0517ac18.js.map"
+    "main.f88facea.css.map": "/portfolio/static/css/main.f88facea.css.map",
+    "main.bd5976c3.js.map": "/portfolio/static/js/main.bd5976c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.739be846.css",
-    "static/js/main.0517ac18.js"
+    "static/css/main.f88facea.css",
+    "static/js/main.bd5976c3.js"
   ]
 }
