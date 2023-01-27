@@ -38,6 +38,14 @@ const skillsList = [
     name: "Tailwindcss",
     image: images.tailwind,
   },
+  {
+    name: "Material UI",
+    image: images.mui,
+  },
+  {
+    name: "Framer Motion",
+    image: images.framer,
+  },
 ];
 
 const experienceList = [

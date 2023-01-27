@@ -9,17 +9,24 @@ import "./Projects.scss";
 const projectsList = [
   {
     title: "Catalogue Website",
-    description: "A modern catalogue website for local IT equipment vendor",
+    description: "A catalogue website for IT equipment vendor using Next.js and Sanity",
     projectLink: "https://computers-world.vercel.app/",
     codeLink: "https://github.com/IntekhabAzam/computers-world",
-    image: images.about01,
+    image: images.project01,
+  },
+  {
+    title: "YouTube Clone",
+    description: "A YouTube clone application using React, Material UI and RapidAPI",
+    projectLink: "https://intekhab-youtube-clone.vercel.app/",
+    codeLink: "https://github.com/IntekhabAzam/youtube-clone",
+    image: images.project02,
   },
   {
     title: "React Firebase Project",
-    description: "A modern contact list website with CRUD operations",
+    description: "A modern contact list CRUD website with integrated Firebase",
     projectLink: "https://invedus-assignment-six.vercel.app/",
     codeLink: "https://github.com/IntekhabAzam/Invedus-Assignment",
-    image: images.about02,
+    image: images.project03,
   },
 ];
 

@@ -4,21 +4,21 @@ import git from '../assets/git.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import node from '../assets/node.png';
-import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import bootstrap from '../assets/bootstrap.png';
 import nextjs from '../assets/nextjs.png';
 import tailwind from '../assets/tailwind.png';
+import mui from '../assets/mu5.png';
+import framer from '../assets/framer.png';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import whatsapp from '../assets/whatsapp.png';
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import project01 from '../assets/project01.png';
+import project02 from '../assets/project02.png';
+import project03 from '../assets/project03.png';
 
 import circle from '../assets/circle.svg';
 
@@ -33,20 +33,20 @@ export default {
   html,
   javascript,
   node,
-  python,
   react,
   redux,
   sass,
-  about01,
-  about02,
-  about03,
-  about04,
+  project01,
+  project02,
+  project03,
   circle,
   linkedin,
   github,
   bootstrap,
   nextjs,
   tailwind,
+  mui,
+  framer,
   xaviers,
   jamia,
   whatsapp
