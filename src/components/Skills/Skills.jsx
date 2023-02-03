@@ -11,6 +11,10 @@ const skillsList = [
     image: images.javascript,
   },
   {
+    name: "Typescript",
+    image: images.typescript,
+  },
+  {
     name: "Html",
     image: images.html,
   },
@@ -51,7 +55,7 @@ const skillsList = [
 const experienceList = [
   {
     company: "Wipro Limited",
-    title: "Project Engineer | 26 July, 2021 - Present",
+    title: "Project Engineer | 26 July, 2021 - 2 Jan, 2023",
     descLine1:
       "Application Development, Maintenance and Production Support for Client - British Petroleum(bp).",
     descLine2:

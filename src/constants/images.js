@@ -3,6 +3,7 @@ import css from '../assets/css.png';
 import git from '../assets/git.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
+import typescript from '../assets/typescript.png';
 import node from '../assets/node.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
@@ -32,6 +33,7 @@ export default {
   git,
   html,
   javascript,
+  typescript,
   node,
   react,
   redux,
