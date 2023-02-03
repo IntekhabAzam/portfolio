@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f88facea.css",
-    "main.js": "/portfolio/static/js/main.bd5976c3.js",
+    "main.js": "/portfolio/static/js/main.f79c7139.js",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/project02.png": "/portfolio/static/media/project02.b6305371d1c0ef04d471.png",
     "static/media/Jamia_Millia_Islamia.png": "/portfolio/static/media/Jamia_Millia_Islamia.21dabbd413adcc018de1.png",
@@ -19,10 +19,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.f88facea.css.map": "/portfolio/static/css/main.f88facea.css.map",
-    "main.bd5976c3.js.map": "/portfolio/static/js/main.bd5976c3.js.map"
+    "main.f79c7139.js.map": "/portfolio/static/js/main.f79c7139.js.map"
   },
   "entrypoints": [
     "static/css/main.f88facea.css",
-    "static/js/main.bd5976c3.js"
+    "static/js/main.f79c7139.js"
   ]
 }
