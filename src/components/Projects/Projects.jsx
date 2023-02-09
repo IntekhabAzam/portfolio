@@ -28,6 +28,13 @@ const projectsList = [
     codeLink: "https://github.com/IntekhabAzam/Invedus-Assignment",
     image: images.project03,
   },
+  {
+    title: "React Typescript Store",
+    description: "A modern shopping cart application using React and Typescript",
+    projectLink: "https://intekhabazam.github.io/react-typescript-store/",
+    codeLink: "https://github.com/IntekhabAzam/react-typescript-store",
+    image: images.project04,
+  },
 ];
 
 const Projects = () => {

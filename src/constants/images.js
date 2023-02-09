@@ -20,6 +20,7 @@ import whatsapp from '../assets/whatsapp.png';
 import project01 from '../assets/project01.png';
 import project02 from '../assets/project02.png';
 import project03 from '../assets/project03.png';
+import project04 from '../assets/project04.png';
 
 import circle from '../assets/circle.svg';
 
@@ -41,6 +42,7 @@ export default {
   project01,
   project02,
   project03,
+  project04,
   circle,
   linkedin,
   github,
