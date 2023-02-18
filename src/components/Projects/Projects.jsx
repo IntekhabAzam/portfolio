@@ -30,10 +30,17 @@ const projectsList = [
   },
   {
     title: "React Typescript Store",
-    description: "A modern shopping cart application using React and Typescript",
+    description: "A modern shopping cart application using React, Typescript and Context API",
     projectLink: "https://intekhabazam.github.io/react-typescript-store/",
     codeLink: "https://github.com/IntekhabAzam/react-typescript-store",
     image: images.project04,
+  },
+  {
+    title: "React Redux Store",
+    description: "A modern shopping cart application using React and Redux",
+    projectLink: "https://intekhabazam.github.io/react-redux-store/",
+    codeLink: "https://github.com/IntekhabAzam/react-redux-store",
+    image: images.project05,
   },
 ];
 
