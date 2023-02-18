@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f88facea.css",
-    "main.js": "/portfolio/static/js/main.c88314fa.js",
+    "main.js": "/portfolio/static/js/main.b5f4ab66.js",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/project02.png": "/portfolio/static/media/project02.b6305371d1c0ef04d471.png",
     "static/media/Jamia_Millia_Islamia.png": "/portfolio/static/media/Jamia_Millia_Islamia.21dabbd413adcc018de1.png",
     "static/media/project04.png": "/portfolio/static/media/project04.f67e9b34c367159902c8.png",
+    "static/media/project05.png": "/portfolio/static/media/project05.a9d3233c89a61e6b07a9.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
     "static/media/project01.png": "/portfolio/static/media/project01.967ccf4055feae1d67bc.png",
     "static/media/St-Xaviers.png": "/portfolio/static/media/St-Xaviers.c21fbab52bf610bec86f.png",
@@ -20,10 +21,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.f88facea.css.map": "/portfolio/static/css/main.f88facea.css.map",
-    "main.c88314fa.js.map": "/portfolio/static/js/main.c88314fa.js.map"
+    "main.b5f4ab66.js.map": "/portfolio/static/js/main.b5f4ab66.js.map"
   },
   "entrypoints": [
     "static/css/main.f88facea.css",
-    "static/js/main.c88314fa.js"
+    "static/js/main.b5f4ab66.js"
   ]
 }
