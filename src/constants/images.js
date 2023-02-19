@@ -44,6 +44,7 @@ export default {
   project02,
   project03,
   project04,
+  project05,
   circle,
   linkedin,
   github,
