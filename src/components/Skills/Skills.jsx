@@ -54,6 +54,15 @@ const skillsList = [
 
 const experienceList = [
   {
+    company: "Flipkart",
+    title: "SDE-UI | 24 April, 2023 - Present",
+    descLine1:
+      "Working on frontent optimization and new features addition in Flipkart mobile and web application",
+    descLine2:
+      "collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
+    descLine3: "Tech stack: React Native, React, Javascript, Typescript",
+  },
+  {
     company: "Wipro Limited",
     title: "Project Engineer | 26 July, 2021 - 2 Jan, 2023",
     descLine1:
