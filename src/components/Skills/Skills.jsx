@@ -7,14 +7,6 @@ import "./Skills.scss";
 
 const skillsList = [
   {
-    name: "Javascript",
-    image: images.javascript,
-  },
-  {
-    name: "Typescript",
-    image: images.typescript,
-  },
-  {
     name: "Html",
     image: images.html,
   },
@@ -23,8 +15,24 @@ const skillsList = [
     image: images.css,
   },
   {
+    name: "Javascript",
+    image: images.javascript,
+  },
+  {
     name: "React",
     image: images.react,
+  },
+  {
+    name: "Typescript",
+    image: images.typescript,
+  },
+  {
+    name: "React Native",
+    image: images.react,
+  },
+  {
+    name: "Redux",
+    image: images.redux,
   },
   {
     name: "Next.js",
@@ -43,10 +51,6 @@ const skillsList = [
     image: images.tailwind,
   },
   {
-    name: "Material UI",
-    image: images.mui,
-  },
-  {
     name: "Framer Motion",
     image: images.framer,
   },
@@ -59,7 +63,7 @@ const experienceList = [
     descLine1:
       "Working on frontent optimization and new features addition in Flipkart mobile and web application",
     descLine2:
-      "collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
+      "Collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
     descLine3: "Tech stack: React Native, React, Javascript, Typescript",
   },
   {
