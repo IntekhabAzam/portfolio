@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f88facea.css",
-    "main.js": "/portfolio/static/js/main.0dbb25fd.js",
+    "main.css": "/portfolio/static/css/main.e5874525.css",
+    "main.js": "/portfolio/static/js/main.b9447f45.js",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/project02.png": "/portfolio/static/media/project02.b6305371d1c0ef04d471.png",
     "static/media/Jamia_Millia_Islamia.png": "/portfolio/static/media/Jamia_Millia_Islamia.21dabbd413adcc018de1.png",
@@ -20,11 +20,11 @@
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.f88facea.css.map": "/portfolio/static/css/main.f88facea.css.map",
-    "main.0dbb25fd.js.map": "/portfolio/static/js/main.0dbb25fd.js.map"
+    "main.e5874525.css.map": "/portfolio/static/css/main.e5874525.css.map",
+    "main.b9447f45.js.map": "/portfolio/static/js/main.b9447f45.js.map"
   },
   "entrypoints": [
-    "static/css/main.f88facea.css",
-    "static/js/main.0dbb25fd.js"
+    "static/css/main.e5874525.css",
+    "static/js/main.b9447f45.js"
   ]
 }
