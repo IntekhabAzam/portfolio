@@ -7,7 +7,7 @@ import "./Skills.scss";
 
 const skillsList = [
   {
-    name: "Html",
+    name: "HTML",
     image: images.html,
   },
   {
@@ -15,25 +15,30 @@ const skillsList = [
     image: images.css,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     image: images.javascript,
+  },
+  {
+    name: "TypeScript",
+    image: images.typescript,
   },
   {
     name: "React",
     image: images.react,
   },
   {
-    name: "Typescript",
-    image: images.typescript,
+    name: "Redux",
+    image: images.redux,
+  },
+  {
+    name: "React Query",
+    image: images.reactQuery,
   },
   {
     name: "React Native",
     image: images.react,
   },
-  {
-    name: "Redux",
-    image: images.redux,
-  },
+
   {
     name: "Next.js",
     image: images.nextjs,
@@ -43,37 +48,43 @@ const skillsList = [
     image: images.sass,
   },
   {
-    name: "Bootstrap",
-    image: images.bootstrap,
+    name: "Material UI",
+    image: images.mui,
   },
   {
-    name: "Tailwindcss",
-    image: images.tailwind,
-  },
-  {
-    name: "Framer Motion",
-    image: images.framer,
+    name: "Git",
+    image: images.git,
   },
 ];
 
 const experienceList = [
   {
     company: "Flipkart",
-    title: "SDE-UI | 24 April, 2023 - Present",
-    descLine1:
-      "Working on frontent optimization and new features addition in Flipkart mobile and web application",
-    descLine2:
-      "Collaborate with a team of skilled developers, designers, and product managers to translate wireframes and mockups into fully functional features.",
-    descLine3: "Tech stack: React Native, React, Javascript, Typescript",
+    title: "SDE I - UI | Jan, 2024 - Present",
+    descriptions: [
+      "Working in the Machine Learning Platform team to build a UI platform aimed at showcasing their products and helping other business units of Flipkart and Myntra use the offered services.",
+      "Leading the UI development and collaborating with backend developers to build a platform designed to facilitate the exploration, comparison, and utilization of various in-house and external Large Language Models.",
+      "Developed an LLM Playground for users to compare different LLMs in real-time and submit feedback. The queries and feedback from the database are used by the Data Science team to fine-tune the LLMs.",
+      "Developing a centralized repository for storing and managing in-house and external LLM Models.",
+      "Tech stack: Javascript, Typescript, React, Redux, React Query",
+    ],
+  },
+  {
+    title: "SDE I - UI | April, 2023 - Jan, 2024",
+    descriptions: [
+      "Worked in Fintech Insurance team for developing new features in mobile app and mobile site.",
+      "Developed a new default attach feature to offer insurance products at a very low cost to customers for BBD 2023 by updating the Product, Cart, and Checkout flows.",
+      "Tech stack: Javascript, Typescript, React, Redux, React Native",
+    ],
   },
   {
     company: "Wipro Limited",
-    title: "Project Engineer | 26 July, 2021 - 2 Jan, 2023",
-    descLine1:
+    title: "Project Engineer | July, 2021 - Jan, 2023",
+    descriptions: [
       "Application Development, Maintenance and Production Support for Client - British Petroleum(bp).",
-    descLine2:
       "Work on application Front-end enhancement and created more interactive user interface using HTML, CSS, JavaScript.",
-    descLine3: "Code optimization for better performance of the application.",
+      "Optimized the code to enhance the performance of application.",
+    ],
   },
 ];
 
@@ -105,14 +116,17 @@ const Skills = () => {
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__exp-item app__flex"
+              style={!experience.company ? { marginTop: 0 } : ""}
               key={index}
             >
               <h4 className="bold-text">{experience.company}</h4>
               <p className="p-text">{experience.title}</p>
               <ul>
-                <li className="p-text">{experience.descLine1}</li>
-                <li className="p-text">{experience.descLine2}</li>
-                <li className="p-text">{experience.descLine3}</li>
+                {experience.descriptions.map((description, index) => (
+                  <li key={index} className="p-text">
+                    {description}
+                  </li>
+                ))}
               </ul>
             </motion.div>
           ))}
